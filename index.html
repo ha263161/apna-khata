@@ -1,90 +1,23 @@
-Save the following as **`index.html`** and upload it to your GitHub repository.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Apna Khata</title>
-
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
-
-html,body{
-    width:100%;
-    height:100%;
-}
-
-body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#004D4D,#0B6B53,#006D6F);
-}
-
-.container{
-    width:90%;
-    max-width:420px;
-    display:flex;
-    flex-direction:column;
-    gap:22px;
-}
-
-button{
-    width:100%;
-    height:70px;
-    border:none;
-    border-radius:18px;
-    background:#ffffff;
-    color:#0B6B53;
-    font-size:22px;
-    font-weight:bold;
-    cursor:pointer;
-    transition:.3s;
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
-}
-
-button:hover{
-    transform:translateY(-3px);
-}
-
-button:active{
-    transform:scale(.98);
-}
-
-@media(max-width:600px){
-button{
-    height:65px;
-    font-size:20px;
-}
-}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+html,body{height:100%}
+body{display:flex;justify-content:center;align-items:center;background:linear-gradient(135deg,#004D4D,#0B6B53,#006D6F)}
+.container{width:min(90%,420px);display:flex;flex-direction:column;gap:20px}
+button{height:68px;border:none;border-radius:18px;background:#fff;color:#0B6B53;font-size:22px;font-weight:bold;cursor:pointer;box-shadow:0 10px 25px rgba(0,0,0,.25)}
+button:hover{opacity:.95}
 </style>
-
 </head>
-
 <body>
-
 <div class="container">
-
-<button onclick="location.href='https://sites.google.com/view/zulqarnain0365/apna-khata'">
-Apna Khata
-</button>
-
-<button onclick="alert('Coming Soon')">
-Empty
-</button>
-
-<button onclick="alert('Coming Soon')">
-Empty
-</button>
-
+<button onclick="window.location.href='https://sites.google.com/view/zulqarnain0365/apna-khata'">Apna Khata</button>
+<button onclick="alert('Coming Soon')">Empty</button>
+<button onclick="alert('Coming Soon')">Empty</button>
 </div>
-
 </body>
 </html>
